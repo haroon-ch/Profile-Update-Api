@@ -32,8 +32,6 @@ class DbOperation
 
     
 
-
-
 function update_profile($id, $name, $email, $image)
 {
     if (isset($image)) {
@@ -54,7 +52,6 @@ function update_profile($id, $name, $email, $image)
 }
 
 
-
     function get_Profile()
 {
 $stmt = $this->con->prepare ("SELECT * FROM `ptest`");
@@ -73,6 +70,7 @@ $test['image'] = $imgurl;
 }
 return $cat;
 }
+
 
 
     // delete method

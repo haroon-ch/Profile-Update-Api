@@ -34,7 +34,7 @@ $app->post('/insert_Profile',function (Request $request,Response $response)
       $response->getBody()->write(json_encode($responseData));
 });
 
-  
+
 
 $app->post('/update_profile', function (Request $request, Response $response) {
     $requestData = json_decode($request->getBody());

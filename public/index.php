@@ -35,7 +35,6 @@ $app->post('/insert_Profile',function (Request $request,Response $response)
 });
 
 
-
 $app->post('/update_profile', function (Request $request, Response $response) {
     $requestData = json_decode($request->getBody());
     $id=$requestData->id;

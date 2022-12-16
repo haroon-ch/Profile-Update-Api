@@ -1,6 +1,5 @@
 <?php
  
- 
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
@@ -18,6 +17,5 @@ define('POST_DELETED',101);
 define('ORDER_NOT_PLACED',103);
 define('PET_ADDED',101);
 define('ORDER_PLACED',101);
-
 
 ?>

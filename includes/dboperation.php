@@ -30,7 +30,7 @@ class DbOperation
         return PROFILE_NOT_CREATED;
     }
 
-    
+
     
 
 function update_profile($id, $name, $email, $image)

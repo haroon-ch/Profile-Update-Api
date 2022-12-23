@@ -31,7 +31,7 @@ class DbOperation
     }
 
 
-    
+        // Update method
 
 function update_profile($id, $name, $email, $image)
 {
